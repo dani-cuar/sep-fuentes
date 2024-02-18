@@ -16,7 +16,7 @@ def synchronize_folders(folder1, folder2, extension1, extension2):
         if file not in common_files:
             # Construct the full path of the file in folder2 with its extension and remove it
             file_path = os.path.join(folder2, file)
-            os.remove(file_path + ".wav")
+            os.remove(file_path + ".wav") 
 
 # Paths of the folders and file extensions
 folder_path1 = "C:/Users/Daniela Cuartas/Documents/UdeA/Proyecto de grado/database_v3/espectrogramas/female_female"
